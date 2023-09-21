@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS BOX Model</title>
+
+    <style>
+        h1 {
+            color: aqua;
+            font-size: 50px;
+        }
+
+        #body {
+            background-color: chartreuse;
+        }
+
+        .paragraph-border {
+            margin: 4px;
+            padding: 50px;
+        }
+
+
+        /* Change the bullet style of the list items in your <ul> */
+        .list-item {
+            list-style: circle;
+        }
+
+
+        .border {
+            border: 10px solid red;
+            padding: 40px;
+            margin: 60px;
+        }
+
+        .one {
+            background-color: red;
+        }
+
+        .two {
+            background-color: blue;
+        }
+
+        .three {
+            background-color: black;
+        }
+
+        .one,
+        .two,
+        .three {
+            padding: 20px;
+            margin: 10px;
+            border: 5px solid red;
+            width: 2px;
+        }
+    </style>
+</head>
+
+<body id="body">
+    <h1>CSS BOX MODEL</h1>
+    <p class="paragraph-border">Apply CSS styling to your HTML document to make it visually appealing. Create a separate
+        CSS file and link it to
+        your HTML document using the In your CSS file, do the following:</p>
+    <ul class="list-item">
+        <li>list 1</li>
+        <li>list 2</li>
+        <li>list 3</li>
+    </ul>
+    <img src="https://imgs.search.brave.com/GjvcLS5o1kgTxHvZk7zATsGtSoojc4MnSZdGP90FPiQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1Qk1UWTBNRFky/TURNd09WNUJNbDVC/YW5CblhrRnRaVGd3/TkRFNE1ETTBPVEVA/LmpwZw"
+        alt="ajay devgan" class="border">
+
+
+
+    <div>
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+    </div>
+
+</body>
+
+</html>
